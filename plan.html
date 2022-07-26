@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel In Myanmar</title>
+    <!-- font-awesome link for icons and font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- logo -->
+        <a href="home.html" class="logo"><img src="image/travellogo.png" alt=""></a>
+        <!-- navigation -->
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="home.html#places" >Popular Places</a>
+            <a href="home.html#festival">Festival Events</a>
+            <a href="plan.html">Your Plans</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menubar"></i>
+            <i class="fas fa-search" id="search"></i>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- search form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- end search form -->
+    <!-- content -->
+     <section class="homecontent" id="homecontent">
+        <div class="content">
+        </div>
+    </section>
+    <!-- end content -->
+    <!-- plan form -->
+    <section class="plan">
+        <h3 class="sub-heading">Your Plans</h3>
+        <h1 class="heading">Places To Go In Myanmar</h1>
+        <form action="" id="demoForm" class="demoForm">
+            <div class="inputbox">
+                <div class="input">
+                    <span>First Name <i>*</i></span>
+                    <input type="text" name="name" placeholder="Enter your first name">
+                </div>
+                <div class="input">
+                    <span>Last Name <i>*</i></span>
+                    <input type="text" name="name" placeholder="Enter your last name">
+                </div>
+                <div class="input">
+                    <span>Email <i style="color: #DAA520;">(optional)</i></span>
+                    <input type="text" name="name" placeholder="Enter your email">
+                </div>
+
+                <div class="input">
+                    <span>City<i>*</i></span>
+                    <select name="city" id="">
+                        <option value="">Select City</option>
+                        <option value="yangon">Yangon</option>
+                        <option value="bagan">Bagan</option>
+                        <option value="inle">Inle Lake</option>
+                        <option value="madalay">Madalay</option>
+                        <option value="hpaan">Hpa-An</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <span>Famous Places<i>*</i></span>
+                    <select name="places" id="places">
+
+                    </select>
+                </div>
+                <div class="input">
+                    <span>Date<i>*</i></span>
+                    <input type="date">
+                </div>
+                <div class="input">
+                    <span>Trip By In Myanmar<i>*</i></span>
+                    <!-- <div class="check">
+                        <label for="flying">Flying</label>
+                        <input class="checkbox" type="checkbox" id="flying">
+                    </div> -->
+                    <div class="check">
+                        <label><input class="box" type="checkbox" /> Flying</label>
+                    </div>
+                    <div class="check">
+                        <label><input class="box" type="checkbox" /> Driving</label>
+                    </div>
+                    <div class="check">
+                        <label><input class="box" type="checkbox" /> Trian</label>
+                    </div>
+
+                    <!-- <label for="driving">Driving</label>
+                    <input class="checkbox" type="checkbox" id="driving">
+                    <label class="checkbox" for="train">Trian</label>
+                    <input type="checkbox" id="tain"> -->
+                </div>
+                <div class="input">
+                    <span>Want E-Guides?<i>*</i></span>
+
+                    <div class="radio">
+                        <label for=""><input class="box" type="radio" name="radio" />Yes</label>
+                        <label><input class="box" type="radio" name="radio" />No</label>
+                    </div>
+
+
+                </div>
+                <div class="input">
+                    <span>Why you wanna come?</span>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Detail Text...."></textarea>
+                </div>
+                <div class="sub-btn">
+                    <input class="btn" type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </section>
+     <!-- footer -->
+     <section class="footer">
+
+        <div class="credit"> Created @2022 by <span>Orr Khin Nyein Thant</span> </div>
+    </section>
+    <!-- end footer -->
+    <!-- custom js -->
+    <script src="js/layout.js"></script>
+    <script src="js/plan.js"></script>
+</body>
+</html>

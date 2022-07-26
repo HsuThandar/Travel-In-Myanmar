@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel In Myanmar</title>
+    <!-- font-awesome link for icons and font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- logo -->
+        <a href="home.html" class="logo"><img src="image/travellogo.png" alt=""></a>
+        <!-- navigation -->
+        <nav class="navbar" id="navbars">
+            <a href="#home" class="active">Home</a>
+            <a href="#places">Popular Places</a>
+            <a href="#festival">Festival Events</a>
+            <a href="plan.html">Your Plans</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menubar"></i>
+            <i class="fas fa-search" id="search"></i>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- search form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- end search form -->
+
+    <!-- home video -->
+    <section class="home" id="home">
+        <div id="headerContent">
+            <p> Hello </p>
+            <video src="image/home-clip.mp4" muted  loop autoplay width="100%"></video>
+
+        </div>
+    </section>
+
+    <!-- end home video -->
+    <!-- popular places -->
+    <section class="places" id="places">
+        <h3 class="sub-heading">Popular Places</h3>
+        <h1 class="heading">Famous Places In Myanmar</h1>
+        <!-- slider -->
+        <button class="pre-btn"><img src="image/back.png" alt=""></button>
+        <button class="next-btn"><img src="image/back.png" alt=""></button>
+        <div class="slide-container">
+            <div class="slide-card">
+                <div class="slide-image">
+
+                    <img src="image/y1.jpg" class="img-thumb" alt="">
+                    <a href="yangon.html" class="card-btn">Details</a>
+                </div>
+                <div class="slide-info">
+                    <h2 class="place-name">Yangon</h2>
+                </div>
+            </div>
+            <div class="slide-card">
+                <div class="slide-image">
+
+                    <img src="image/mdy.jpg" class="img-thumb" alt="">
+                    <a href="yangon.html" class="card-btn">Details</a>
+                </div>
+                <div class="slide-info">
+                    <h2 class="place-name">Mandalay</h2>
+                </div>
+            </div>
+            <div class="slide-card">
+                <div class="slide-image">
+
+                    <img src="image/inle.jpg" class="img-thumb" alt="">
+                    <a href="yangon.html" class="card-btn">Details</a>
+                </div>
+                <div class="slide-info">
+                    <h2 class="place-name">Inle Lake</h2>
+                </div>
+            </div>
+            <div class="slide-card">
+                <div class="slide-image">
+
+                    <img src="image/hpa.jpg" class="img-thumb" alt="">
+                    <a href="yangon.html" class="card-btn">Details</a>
+                </div>
+                <div class="slide-info">
+                    <h2 class="place-name">Hpa-An</h2>
+                </div>
+            </div>
+            <div class="slide-card">
+                <div class="slide-image">
+
+                    <img src="image/bagan.jpg" class="img-thumb" alt="">
+                    <a href="yangon.html" class="card-btn">Details</a>
+                </div>
+                <div class="slide-info">
+                    <h2 class="place-name">Bagan</h2>
+                </div>
+            </div>
+            <div class="slide-card">
+                <div class="slide-image">
+
+                    <img src="image/ta.jpg" class="img-thumb" alt="">
+                    <a href="yangon.html" class="card-btn">Details</a>
+                </div>
+                <div class="slide-info">
+                    <h2 class="place-name">Taunggyi</h2>
+                </div>
+            </div>
+            <div class="slide-card">
+                <div class="slide-image">
+
+                    <img src="image/bago.jpg" class="img-thumb" alt="">
+                    <a href="yangon.html" class="card-btn">Details</a>
+                </div>
+                <div class="slide-info">
+                    <h2 class="place-name">Bago</h2>
+                </div>
+            </div>
+            <div class="slide-card">
+                <div class="slide-image">
+
+                    <img src="image/pyay.jpg" class="img-thumb" alt="">
+                    <a href="yangon.html" class="card-btn">Details</a>
+                </div>
+                <div class="slide-info">
+                    <h2 class="place-name">Pyay</h2>
+                </div>
+            </div>
+            <!-- <div class="slide-card">
+                <div class="slide-image">
+
+                    <img src="image/topthing.jpg" class="img-thumb" alt="">
+                    <button class="card-btn">Details</button>
+                </div>
+                <div class="slide-info">
+                    <h2 class="place-name"></h2>
+                    <p class="short-des">a short line about the place</p>
+                    <span class="price">$20</span>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="festival" id="festival">
+        <h3 class="sub-heading">Festival Events</h3>
+        <h1 class="heading">Intersting Events In Myanmar</h1>
+        <div class="row">
+            <div class="content-col">
+                <h3>About Festivals & Events</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.</p>
+                <a href="festival.html" class="readbtn">Read more</a>
+            </div>
+
+            <div class="img-col">
+                <div class="image-gallery">
+                    <img src="image/thin2.jpg" alt="">
+                    <img src="image/ele.jpg" alt="">
+                    <img src="image/polfestival.jpg" alt="">
+                    <img src="image/September_EventsFestivals_600x400.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- festival event -->
+    <!-- end festival -->
+
+    <!-- footer -->
+    <section class="footer">
+
+
+        <div class="credit"> Created @2022 by <span>Orr Khin Nyein Thant</span> </div>
+    </section>
+    <!-- end footer -->
+    <!-- custom js -->
+    <script src="js/layout.js"></script>
+    <script src="js/onscroll.js"></script>
+</body>
+</html>
